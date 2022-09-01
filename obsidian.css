@@ -1166,10 +1166,6 @@ body.theme-dark .outgoing-link-pane .tree-item-self.is-clickable:active .tree-it
   white-space: normal;
 }
 
-.nav-folder-collapse-indicator {
-  align-items: flex-start;
-}
-
 .nav-folder-collapse-indicator.collapse-icon {
   margin-top: var(--scale-2-1);
   margin-left: var(--scale-0-0);
