@@ -110,7 +110,6 @@ body {
             Light Theme
 ────────────────────────────────────*/
 .theme-light {
-  /*─────────Original Obsidian Variables──────────*/
   --background-primary: var(--color-l-white);
   --background-primary-alt: var(--color-l-gray-10);
   --background-secondary: var(--color-l-gray-10);
@@ -1136,9 +1135,18 @@ body.theme-dark .outgoing-link-pane .tree-item-self.is-clickable:active .tree-it
   border: 1px solid transparent;
 }
 
+.theme-light .oz-folder-name {
+  color: var(--color-l-gray-80);
+}
+
 .oz-nav-file-title .oz-nav-file-title-content {
   font-size: var(--oz-fta-folder-font-size);
 }
+
+.theme-light .oz-nav-file-title .oz-nav-file-title-content {
+  color: var(--color-l-gray-80);
+}
+
 
 .nav-folder-title,
 .nav-file-title {
@@ -1189,13 +1197,13 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
 /* File Explorer for Light Mode */
 .theme-light .nav-folder-title:not([data-path="/"]),
 .theme-light .nav-file-title {
-  color: var(--color-l-gray-80);
+  color: var(--color-l-gray-90);
   background: transparent;
 }
 
 .theme-light .nav-folder-title:not([data-path="/"]):hover,
 .theme-light .nav-file-title:hover {
-  color: var(--color-l-gray-80) !important;
+  color: var(--color-l-gray-90) !important;
   background: var(--color-l-gray-10) !important;
 }
 
