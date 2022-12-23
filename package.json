@@ -1,0 +1,12 @@
+{
+  "name": "obsidian-nezhos-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "concat": "cat css/* > theme.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
