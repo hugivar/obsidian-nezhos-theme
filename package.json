@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "concat": "cat css/* > theme.css"
+    "watch": "./node_modules/.bin/sass --watch src/index.scss theme.css"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
 }
