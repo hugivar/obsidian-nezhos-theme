@@ -1180,17 +1180,6 @@ div.node-insert-event .external-link:active,
   top: initial;
 }
 
-span.cm-formatting.cm-formatting-list,
-span.list-bullet,
-li::marker {
-  color: var(--md-color-bullet);
-  font-size: var(--font-scale-0);
-  font-family: var(--font-monospace-theme);
-  font-variant-numeric: tabular-nums;
-  text-align: left;
-  vertical-align: 0px;
-}
-
 .markdown-preview-view .list-collapse-indicator {
   padding-left: 0;
   padding-right: 0;
