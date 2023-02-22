@@ -1,4 +1,4 @@
-# Nezhos Theme
+# HugiOS Theme
 
 Heavily inspired fork of two different themes combined into a single view. Leveraging Primary theme for light mode and Night Owl theme for dark mode.
 
