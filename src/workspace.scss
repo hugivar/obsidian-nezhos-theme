@@ -356,43 +356,43 @@
 /*────────────────────────────────────
             Tab Content
 ────────────────────────────────────*/
-.workspace-tabs .workspace-leaf.mod-active,
-.workspace-tabs .workspace-leaf.mod-active:active {
-  border-color: transparent;
-}
+// .workspace-tabs .workspace-leaf.mod-active,
+// .workspace-tabs .workspace-leaf.mod-active:active {
+//   border-color: transparent;
+// }
 
-.workspace-split.mod-right-split .workspace-tabs:last-child {
-  padding-bottom: calc(-4px + var(--scale-8-3));
-}
+// .workspace-split.mod-right-split .workspace-tabs:last-child {
+//   padding-bottom: calc(-4px + var(--scale-8-3));
+// }
 
 /*─────────View Content──────────*/
-.workspace-leaf-content .view-content {
-  padding: var(--scale-8-2) var(--scale-8-2);
-}
+// .workspace-leaf-content .view-content {
+//   padding: var(--scale-8-2) var(--scale-8-2);
+// }
 
-.workspace-split.mod-left-split .view-content,
-.workspace-split.mod-right-split .view-content {
-  height: 100%;
-  overflow: auto;
-  padding: var(--scale-2-3) var(--scale-2-4) var(--scale-2-4) var(--scale-2-4);
-}
+// .workspace-split.mod-left-split .view-content,
+// .workspace-split.mod-right-split .view-content {
+//   height: 100%;
+//   overflow: auto;
+//   padding: var(--scale-2-3) var(--scale-2-4) var(--scale-2-4) var(--scale-2-4);
+// }
 
-.workspace-leaf-content[data-type=backlink] .view-content,
-.workspace-leaf-content[data-type=outgoing-link] .view-content {
-  padding: var(--scale-2-3) var(--scale-0-0) var(--scale-2-4) var(--scale-0-0);
-  background-color: var(--background-secondary-alt);
-}
+// .workspace-leaf-content[data-type=backlink] .view-content,
+// .workspace-leaf-content[data-type=outgoing-link] .view-content {
+//   padding: var(--scale-2-3) var(--scale-0-0) var(--scale-2-4) var(--scale-0-0);
+//   background-color: var(--background-secondary-alt);
+// }
 
-.workspace-leaf-content[data-type=starred] {
-  padding: var(--scale-0-0) var(--scale-2-4) var(--scale-0-0) var(--scale-2-4);
-}
+// .workspace-leaf-content[data-type=starred] {
+//   padding: var(--scale-0-0) var(--scale-2-4) var(--scale-0-0) var(--scale-2-4);
+// }
 
-.pane-empty {
-  color: var(--text-faint);
-  font-style: italic;
-  margin: auto auto;
-  width: 17ch;
-}
+// .pane-empty {
+//   color: var(--text-faint);
+//   font-style: italic;
+//   margin: auto auto;
+//   width: 17ch;
+// }
 
 /*─────────Node Insert Event──────────*/
 .workspace-split.mod-left-split .node-insert-event,
@@ -515,35 +515,35 @@
 }
 
 /*~ Tree Items for Tabs for Light Mode ~*/
-.theme-light .tree-item-self {
-  color: var(--color-l-gray-80);
-  background: transparent;
-}
+// .theme-light .tree-item-self {
+//   color: var(--color-l-gray-80);
+//   background: transparent;
+// }
 
-.theme-light .tree-item-self.is-clickable:hover {
-  color: var(--color-l-gray-80);
-  background: var(--color-l-gray-10);
-}
+// .theme-light .tree-item-self.is-clickable:hover {
+//   color: var(--color-l-gray-80);
+//   background: var(--color-l-gray-10);
+// }
 
-.theme-light .tree-item-self.is-clickable:hover .tree-item-flair {
-  color: var(--color-gray-50);
-  background: var(--color-l-whiter);
-}
+// .theme-light .tree-item-self.is-clickable:hover .tree-item-flair {
+//   color: var(--color-gray-50);
+//   background: var(--color-l-whiter);
+// }
 
-.theme-light .tree-item-self.is-clickable .tree-item-flair {
-  color: var(--color-l-gray-80);
-  background: var(--color-l-gray-40);
-}
+// .theme-light .tree-item-self.is-clickable .tree-item-flair {
+//   color: var(--color-l-gray-80);
+//   background: var(--color-l-gray-40);
+// }
 
-.theme-light .tree-item-self.is-clickable:active {
-  color: var(--color-l-gray-50);
-  background: var(--color-l-gray-40);
-}
+// .theme-light .tree-item-self.is-clickable:active {
+//   color: var(--color-l-gray-50);
+//   background: var(--color-l-gray-40);
+// }
 
-.theme-light .tree-item-self.is-clickable:active .tree-item-flair {
-  color: var(--color-l-gray-60);
-  background: var(--color-l-gray-30);
-}
+// .theme-light .tree-item-self.is-clickable:active .tree-item-flair {
+//   color: var(--color-l-gray-60);
+//   background: var(--color-l-gray-30);
+// }
 
 /*~ Tree Items for Tabs for Dark Mode ~*/
 .theme-dark .tree-item-self {
